@@ -1,0 +1,7 @@
+{ 
+    "cucumberautocomplete.steps": [
+        "ui/step-definitions/*.js"
+    ],
+    "cucumberautocomplete.syncfeatures": "ui/features/*feature",
+    "workbench.iconTheme": "vscode-icons"
+}

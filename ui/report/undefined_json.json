@@ -1,0 +1,292 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "ensure-the-male-tenant-filter-checkbox-is-checked;user-open-no-broker-application---verify-successfully-open-the-application",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "USER OPEN NO BROKER APPLICATION - VERIFY SUCCESSFULLY OPEN THE APPLICATION",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user opens the No Broker application URL",
+            "match": {
+              "location": "step-definitions\\No_Broker.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26606000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "verify the user has successfully opened the application",
+            "match": {
+              "location": "step-definitions\\No_Broker.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 456000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@possitive",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ensure-the-male-tenant-filter-checkbox-is-checked;user-search-location",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "USER SEARCH LOCATION",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user select property type",
+            "match": {
+              "location": "step-definitions\\No_Broker.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1852000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user select location as \"madh\"",
+            "match": {
+              "location": "step-definitions\\No_Broker.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1649000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 105000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@possitive",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ensure-the-male-tenant-filter-checkbox-is-checked;user-select-living-property-type",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "USER SELECT LIVING PROPERTY TYPE",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user select living arrangements as \"Flatmates\"",
+            "match": {
+              "location": "step-definitions\\No_Broker.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1014000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "user select tenant type as \"Male\"",
+            "match": {
+              "location": "step-definitions\\No_Broker.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user select room type as \"Single Room\"",
+            "match": {
+              "location": "step-definitions\\No_Broker.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2713000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@possitive",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ensure-the-male-tenant-filter-checkbox-is-checked;user-search-the-property",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "USER SEARCH THE PROPERTY",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "user search the property",
+            "match": {
+              "location": "step-definitions\\No_Broker.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 523000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 64000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@possitive",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ensure-the-male-tenant-filter-checkbox-is-checked;user-verify-male-check-box-selected",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "USER VERIFY MALE CHECK BOX SELECTED",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "user verify tenant type \"Male\" check box is selected",
+            "match": {
+              "location": "step-definitions\\No_Broker.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3537000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 112000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@possitive",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ensure-the-male-tenant-filter-checkbox-is-checked;teardown",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "TEARDOWN",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "session is closed",
+            "match": {
+              "location": "step-definitions\\No_Broker.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14587000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@possitive",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "ensure-the-male-tenant-filter-checkbox-is-checked",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Ensure the Male Tenant Filter Checkbox is Checked",
+    "tags": [
+      {
+        "name": "@possitive",
+        "line": 1
+      }
+    ],
+    "uri": "features\\Verify_Tenant_CheckBox_Positive.feature"
+  }
+]
