@@ -1,0 +1,58 @@
+{
+  "name": "RC_Test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "int-test": "npx nightwatch --e integration --reporter html-reporter.js",
+    "uat-test": "npx nightwatch --e default --reporter html-reporter.js",
+    "tags": "cucumber-js -p tags",
+    "feature": "cucumber-js -p feature",
+    "all": "cucumber-js -p all",
+    "debug": "node --inspect-brk node_modules/.bin/nightwatch.CMD"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "@cucumber/pretty-formatter": "^1.0.0-alpha.1",
+    "chromedriver": "^126.0.4",
+    "cucumber-html-reporter": "^5.5.0",
+    "cucumberjs-parallel": "^2.0.1",
+    "fs": "0.0.1-security",
+    "geckodriver": "^1.22.3",
+    "handlebars": "^4.7.7",
+    "mkdirp": "^1.0.4",
+    "nightwatch": "^1.7.13",
+    "nightwatch-api": "^3.0.2",
+    "nightwatch-custom-commands-assertions": "^1.1.1",
+    "path": "^0.12.7",
+    "selenium-server": "^3.141.59"
+  },
+  "dependencies": {
+    "change": "^0.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "html-dnd": "^1.2.1",
+    "jquery": "^3.6.0",
+    "mssql": "^8.1.1",
+    "mysql": "github:mysqljs/mysql",
+    "nightwatch-html-reporter": "^2.0.6",
+    "nightwatch-mssql-assertions": "^2.1.0",
+    "selenium-webdriver": "^4.13.0",
+    "the": "^1.0.2",
+    "version": "^0.1.2"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somatusgit/rcqa-automation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/somatusgit/rcqa-automation/issues"
+  },
+  "homepage": "https://github.com/somatusgit/rcqa-automation#readme",
+  "description": ""
+}
