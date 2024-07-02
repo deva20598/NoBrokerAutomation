@@ -1,0 +1,12 @@
+{
+  "name": "nobrokerautomation",
+  "version": "1.0.0",
+  "description": "New repo for No broker sample automation scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
